@@ -39,7 +39,11 @@ public class Desafio {
 				
 			}
 			
-		}System.out.println("Media:" +media+ " quantidade pessoas 50:"+superior50+ "porcentagem:" +porcentagem+ "Pessoa mais velha:" +idadeMaior+ "Peso mais velho:" +pesoMaior+ " Pessoa mais nova:" +idadeMenor+ "Peso mais novo:" +pesoMenor);
+		}System.out.println("Quantidade de pessoas com idade superior a 50 anos: "+superior50);
+		System.out.println("Média das alturas das pessoas com idade entre 10 e 20 anos: " +media);
+		System.out.println("Porcentagem de pessoas com peso inferior a 40 quilos: " +porcentagem+ "%");
+		System.out.println("Peso da pessoa mais velha: "+pesoMaior);
+		System.out.println("Peso da pessoa mais nova: "+pesoMenor);
 	}
 } 
 
